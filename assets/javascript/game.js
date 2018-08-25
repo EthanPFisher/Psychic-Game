@@ -25,11 +25,12 @@ var updatePage = function() {
 // resets game for next round
 var resetGame = function() {
     compChoice = letters[Math.floor(Math.random() * Math.floor(letters.length))];
-    console.log("computer choice: " + compChoice);
     guessLeft = 9;
     guesses = [];
     updatePage();
+    // console.log("computer choice: " + compChoice);
 }
+// call resetGame to ready page for user
 resetGame();
 
 // function run whenever user presses a key
