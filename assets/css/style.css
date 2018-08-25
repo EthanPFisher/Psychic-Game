@@ -1,0 +1,29 @@
+h1, 
+h2, 
+p {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#main {
+    margin-left: 30px;
+}
+
+h1 {
+    line-height: 70px;
+    font-size: 35px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 30px;
+}
+
+#wins-text, 
+#loss-text, 
+#guessLeft-text, 
+#guessSoFar-text {
+    
+}
